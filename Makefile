@@ -1,4 +1,4 @@
-NETS = testnet-beta pio-testnet-1
+NETS = usdf-testnet-1
 
 all:
 
