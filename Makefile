@@ -1,4 +1,4 @@
-NETS = usdf-testnet-1
+NETS = pio-usdf-testnet-1
 
 all:
 

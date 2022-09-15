@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2021-03-09T18:45:22.152625998Z",
-  "chain_id": "pio-testnet-1",
+  "genesis_time": "2022-09-30T16:20:00.000000000Z",
+  "chain_id": "pio-usdf-testnet-1",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -160,7 +160,7 @@
             }
           ],
           "status": "MARKER_STATUS_ACTIVE",
-          "denom": "nhash",
+          "denom": "vspn",
           "supply": "100000000000000000000",
           "marker_type": "MARKER_TYPE_COIN",
           "supply_fixed": true,
@@ -178,7 +178,7 @@
           "address": "tp1zk3qvk6dvpk6394chmvq5gtrw5arqzsag072h5",
           "coins": [
             {
-              "denom": "nhash",
+              "denom": "vspn",
               "amount": "10000000000000000"
             }
           ]
@@ -187,7 +187,7 @@
           "address": "tp1rc9yszgy5pcgkndz6p7734mqkqmasg2r6exe0c",
           "coins": [
             {
-              "denom": "nhash",
+              "denom": "vspn",
               "amount": "10000000000000000"
             }
           ]
@@ -196,7 +196,7 @@
           "address": "tp19fn5mlntyxafugetc8lyzzre6nnyqsq95449gt",
           "coins": [
             {
-              "denom": "nhash",
+              "denom": "vspn",
               "amount": "10000000000000000"
             }
           ]
@@ -205,7 +205,7 @@
           "address": "tp1x299m72h6n88sswg2p9fp8lvkhrtqsvvnc7j9g",
           "coins": [
             {
-              "denom": "nhash",
+              "denom": "vspn",
               "amount": "100000000000000000"
             }
           ]
@@ -214,7 +214,7 @@
           "address": "tp1tgq6cpu6hmsrvkvdu82j99tsxxw7qqajvwg9uu",
           "coins": [
             {
-              "denom": "nhash",
+              "denom": "vspn",
               "amount": "100000000000000000"
             }
           ]
@@ -223,7 +223,7 @@
           "address": "tp1tk23vs7sr9mc04euvx3pcdfuagxd7rtmqs83m8",
           "coins": [
             {
-              "denom": "nhash",
+              "denom": "vspn",
               "amount": "10000000000000000"
             }
           ]
@@ -232,7 +232,7 @@
           "address": "tp1vpuk0shj9v0y6dh64z858hh08q25kjcpuf09fw",
           "coins": [
             {
-              "denom": "nhash",
+              "denom": "vspn",
               "amount": "10000000000000000"
             }
           ]
@@ -241,7 +241,7 @@
           "address": "tp1wt29em7nkmzjayk755cn0f2u563d2f9kxtluqc",
           "coins": [
             {
-              "denom": "nhash",
+              "denom": "vspn",
               "amount": "10000000000000000"
             }
           ]
@@ -250,7 +250,7 @@
           "address": "tp1s9c2asqtp4f6r5k4jsg97p5yekqc6rhqqv7vky",
           "coins": [
             {
-              "denom": "nhash",
+              "denom": "vspn",
               "amount": "100000000000000000"
             }
           ]
@@ -259,7 +259,7 @@
           "address": "tp1jd9rpe6xwxkvmzu4lklpef5qla6tzxxd7g3j5s",
           "coins": [
             {
-              "denom": "nhash",
+              "denom": "vspn",
               "amount": "10000000000000000"
             }
           ]
@@ -268,7 +268,7 @@
           "address": "tp1kmaut7y3psh46lw53hgm4967zfxpq5ls2m2w7v",
           "coins": [
             {
-              "denom": "nhash",
+              "denom": "vspn",
               "amount": "10000000000000000"
             }
           ]
@@ -277,7 +277,7 @@
           "address": "tp16hyrvw2905fkyjp66t46hua6thctu5d54as6n5",
           "coins": [
             {
-              "denom": "nhash",
+              "denom": "vspn",
               "amount": "100000000000000000"
             }
           ]
@@ -286,7 +286,7 @@
           "address": "tp1mhspjegunfnlac6cayd4uf5uvz3wfnymwy4p3t",
           "coins": [
             {
-              "denom": "nhash",
+              "denom": "vspn",
               "amount": "10000000000000000"
             }
           ]
@@ -295,7 +295,7 @@
           "address": "tp1a5r00sn57g3efsk76lgj7mnyswjv09lljvjjz0",
           "coins": [
             {
-              "denom": "nhash",
+              "denom": "vspn",
               "amount": "10000000000000000"
             }
           ]
@@ -304,7 +304,7 @@
           "address": "tp1l4qpmuh2du6x9zrwfxe0yxwd9jmaqheztmftu8",
           "coins": [
             {
-              "denom": "nhash",
+              "denom": "vspn",
               "amount": "10000000000000000"
             }
           ]
@@ -319,7 +319,7 @@
     },
     "crisis": {
       "constant_fee": {
-        "denom": "nhash",
+        "denom": "vspn",
         "amount": "1000"
       }
     },
@@ -372,7 +372,7 @@
                   "key": "RF5q1uL0trmfMzdlVdCzfmCTcnXRRx02S5UihlNVsnQ="
                 },
                 "value": {
-                  "denom": "nhash",
+                  "denom": "vspn",
                   "amount": "100000000000000000"
                 }
               }
@@ -433,7 +433,7 @@
                   "key": "ynN46KrMfGdSvaT7jam8c+qVxyBHyuLhIT+dRLZufk0="
                 },
                 "value": {
-                  "denom": "nhash",
+                  "denom": "vspn",
                   "amount": "100000000000000000"
                 }
               }
@@ -494,7 +494,7 @@
                   "key": "LzdJZx+EMMiqr1dyOJ4lzCRzuqOnVEdOGnwu1zeBwZw="
                 },
                 "value": {
-                  "denom": "nhash",
+                  "denom": "vspn",
                   "amount": "100000000000000000"
                 }
               }
@@ -555,7 +555,7 @@
                   "key": "45H2v0QgaOGwNkjCD3wC9LsDqOohllJqRW8I9h77no8="
                 },
                 "value": {
-                  "denom": "nhash",
+                  "denom": "vspn",
                   "amount": "100000000000000000"
                 }
               }
@@ -601,7 +601,7 @@
       "deposit_params": {
         "min_deposit": [
           {
-            "denom": "nhash",
+            "denom": "vspn",
             "amount": "10000000"
           }
         ],
@@ -668,7 +668,7 @@
         "annual_provisions": "1.000000000000000000"
       },
       "params": {
-        "mint_denom": "nhash",
+        "mint_denom": "vspn",
         "inflation_rate_change": "1.000000000000000000",
         "inflation_max": "0.000000000000000000",
         "inflation_min": "0.000000000000000000",
@@ -714,7 +714,7 @@
         "max_validators": 100,
         "max_entries": 7,
         "historical_entries": 10000,
-        "bond_denom": "nhash"
+        "bond_denom": "vspn"
       },
       "last_total_power": "0",
       "last_validator_powers": [],
