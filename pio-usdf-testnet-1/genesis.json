@@ -161,7 +161,7 @@
           ],
           "status": "MARKER_STATUS_ACTIVE",
           "denom": "vspn",
-          "supply": "100000000000000000000",
+          "supply": "1000000",
           "marker_type": "MARKER_TYPE_COIN",
           "supply_fixed": true,
           "allow_governance_control": true
@@ -175,38 +175,11 @@
       },
       "balances": [
         {
-          "address": "tp1zk3qvk6dvpk6394chmvq5gtrw5arqzsag072h5",
-          "coins": [
-            {
-              "denom": "vspn",
-              "amount": "10000000000000000"
-            }
-          ]
-        },
-        {
-          "address": "tp1rc9yszgy5pcgkndz6p7734mqkqmasg2r6exe0c",
-          "coins": [
-            {
-              "denom": "vspn",
-              "amount": "10000000000000000"
-            }
-          ]
-        },
-        {
-          "address": "tp19fn5mlntyxafugetc8lyzzre6nnyqsq95449gt",
-          "coins": [
-            {
-              "denom": "vspn",
-              "amount": "10000000000000000"
-            }
-          ]
-        },
-        {
           "address": "tp1x299m72h6n88sswg2p9fp8lvkhrtqsvvnc7j9g",
           "coins": [
             {
               "denom": "vspn",
-              "amount": "100000000000000000"
+              "amount": "100"
             }
           ]
         },
@@ -215,52 +188,7 @@
           "coins": [
             {
               "denom": "vspn",
-              "amount": "100000000000000000"
-            }
-          ]
-        },
-        {
-          "address": "tp1tk23vs7sr9mc04euvx3pcdfuagxd7rtmqs83m8",
-          "coins": [
-            {
-              "denom": "vspn",
-              "amount": "10000000000000000"
-            }
-          ]
-        },
-        {
-          "address": "tp1vpuk0shj9v0y6dh64z858hh08q25kjcpuf09fw",
-          "coins": [
-            {
-              "denom": "vspn",
-              "amount": "10000000000000000"
-            }
-          ]
-        },
-        {
-          "address": "tp1wt29em7nkmzjayk755cn0f2u563d2f9kxtluqc",
-          "coins": [
-            {
-              "denom": "vspn",
-              "amount": "10000000000000000"
-            }
-          ]
-        },
-        {
-          "address": "tp1s9c2asqtp4f6r5k4jsg97p5yekqc6rhqqv7vky",
-          "coins": [
-            {
-              "denom": "vspn",
-              "amount": "100000000000000000"
-            }
-          ]
-        },
-        {
-          "address": "tp1jd9rpe6xwxkvmzu4lklpef5qla6tzxxd7g3j5s",
-          "coins": [
-            {
-              "denom": "vspn",
-              "amount": "10000000000000000"
+              "amount": "100"
             }
           ]
         },
@@ -269,7 +197,7 @@
           "coins": [
             {
               "denom": "vspn",
-              "amount": "10000000000000000"
+              "amount": "999700"
             }
           ]
         },
@@ -278,34 +206,7 @@
           "coins": [
             {
               "denom": "vspn",
-              "amount": "100000000000000000"
-            }
-          ]
-        },
-        {
-          "address": "tp1mhspjegunfnlac6cayd4uf5uvz3wfnymwy4p3t",
-          "coins": [
-            {
-              "denom": "vspn",
-              "amount": "10000000000000000"
-            }
-          ]
-        },
-        {
-          "address": "tp1a5r00sn57g3efsk76lgj7mnyswjv09lljvjjz0",
-          "coins": [
-            {
-              "denom": "vspn",
-              "amount": "10000000000000000"
-            }
-          ]
-        },
-        {
-          "address": "tp1l4qpmuh2du6x9zrwfxe0yxwd9jmaqheztmftu8",
-          "coins": [
-            {
-              "denom": "vspn",
-              "amount": "10000000000000000"
+              "amount": "100"
             }
           ]
         }
@@ -320,7 +221,7 @@
     "crisis": {
       "constant_fee": {
         "denom": "vspn",
-        "amount": "1000"
+        "amount": "1"
       }
     },
     "distribution": {
@@ -373,7 +274,7 @@
                 },
                 "value": {
                   "denom": "vspn",
-                  "amount": "100000000000000000"
+                  "amount": "100"
                 }
               }
             ],
@@ -434,7 +335,7 @@
                 },
                 "value": {
                   "denom": "vspn",
-                  "amount": "100000000000000000"
+                  "amount": "100"
                 }
               }
             ],
@@ -495,7 +396,7 @@
                 },
                 "value": {
                   "denom": "vspn",
-                  "amount": "100000000000000000"
+                  "amount": "100"
                 }
               }
             ],
@@ -556,7 +457,7 @@
                 },
                 "value": {
                   "denom": "vspn",
-                  "amount": "100000000000000000"
+                  "amount": "100"
                 }
               }
             ],
@@ -602,13 +503,13 @@
         "min_deposit": [
           {
             "denom": "vspn",
-            "amount": "10000000"
+            "amount": "1"
           }
         ],
-        "max_deposit_period": "172800s"
+        "max_deposit_period": "300s"
       },
       "voting_params": {
-        "voting_period": "172800s"
+        "voting_period": "300s"
       },
       "tally_params": {
         "quorum": "0.334000000000000000",
