@@ -1,6 +1,11 @@
 # USDF Provenance Network Testnets
 Testnet configurations for [USDF Provenance.io](https://usdf.provenance.io) network
 
+validate genesis file by running:
+```bash
+provenanced  validate-genesis <PATH_TO_GENESIS_FILE>/genesis.json
+```
+
 ## Active Test Networks
 
 | Name           | Genesis Version | Software Version       | wasmd Verison | Genesis Finalized    | Network Start        |
@@ -21,7 +26,7 @@ The full upgrades list can be found at https://explorer.test.provenance.io/netwo
 
 | Upgrage Name  | Software Version | Wasm Version. | Block Height         |
 |---------------|------------------|---------------|----------------------|
-| Genesis       | v1.13            | v0.26.0       | 0                    |
+| Genesis       | v1.13.0-rc1      | v0.28.0       | 0                    |
 
 ## Development Networks
 
