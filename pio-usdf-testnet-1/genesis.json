@@ -81,6 +81,13 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tp10es47kqypfg3tt4l02enx7y80dr4e4zndylnze",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "tp1tk23vs7sr9mc04euvx3pcdfuagxd7rtmqs83m8",
           "pub_key": null,
           "account_number": "0",
@@ -145,7 +152,7 @@
         {
           "@type": "/provenance.marker.v1.MarkerAccount",
           "base_account": {
-            "address": "tp1pr93cqdh4kfnmrknhwa87a5qrwxw9k3dhkszp0",
+            "address": "tp1j89ssmr8m6z09dqaghdt7ns24k7wnudqpcwc2l",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -154,6 +161,12 @@
           "access_control": [
             {
               "address": "tp1kmaut7y3psh46lw53hgm4967zfxpq5ls2m2w7v",
+              "permissions": [
+                "ACCESS_WITHDRAW"
+              ]
+            },
+            {
+              "address": "tp10es47kqypfg3tt4l02enx7y80dr4e4zndylnze",
               "permissions": [
                 "ACCESS_WITHDRAW"
               ]
@@ -167,6 +180,9 @@
           "allow_governance_control": true
         }
       ]
+    },
+    "authz": {
+      "authorization": []
     },
     "bank": {
       "params": {
@@ -193,7 +209,7 @@
           ]
         },
         {
-          "address": "tp1kmaut7y3psh46lw53hgm4967zfxpq5ls2m2w7v",
+          "address": "tp10es47kqypfg3tt4l02enx7y80dr4e4zndylnze",
           "coins": [
             {
               "denom": "vspn",
@@ -517,6 +533,16 @@
         "veto_threshold": "0.334000000000000000"
       }
     },
+    "group": {
+      "group_seq": "0",
+      "groups": [],
+      "group_members": [],
+      "group_policy_seq": "0",
+      "group_policies": [],
+      "proposal_seq": "0",
+      "proposals": [],
+      "votes": []
+    },
     "ibc": {
       "client_genesis": {
         "clients": [],
@@ -534,7 +560,10 @@
       "connection_genesis": {
         "connections": [],
         "client_connection_paths": [],
-        "next_connection_sequence": "0"
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "15000000000"
+        }
       },
       "channel_genesis": {
         "channels": [],
@@ -545,6 +574,25 @@
         "recv_sequences": [],
         "ack_sequences": [],
         "next_channel_sequence": "0"
+      }
+    },
+    "interchainaccounts": {
+      "controller_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "ports": [],
+        "params": {
+          "controller_enabled": true
+        }
+      },
+      "host_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "port": "icahost",
+        "params": {
+          "host_enabled": true,
+          "allow_messages": []
+        }
       }
     },
     "marker": {
@@ -577,6 +625,16 @@
         "blocks_per_year": "6311520"
       }
     },
+    "msgfees": {
+      "params": {
+        "floor_gas_price": {
+          "denom": "vspn",
+          "amount": "0"
+        },
+        "nhash_per_usd_mil": "25000000"
+      },
+      "msg_fees": []
+    },
     "name": {
       "params": {
         "max_segment_length": 32,
@@ -598,6 +656,13 @@
       ]
     },
     "params": null,
+    "reward": {
+      "reward_program_id": "1",
+      "reward_programs": [],
+      "claim_period_reward_distributions": [],
+      "reward_account_states": []
+    },
+    "params": null,
     "slashing": {
       "params": {
         "signed_blocks_window": "100",
@@ -615,7 +680,8 @@
         "max_validators": 100,
         "max_entries": 7,
         "historical_entries": 10000,
-        "bond_denom": "vspn"
+        "bond_denom": "vspn",
+        "min_commission_rate": "0.000000000000000000"
       },
       "last_total_power": "0",
       "last_validator_powers": [],
@@ -641,8 +707,7 @@
           "permission": "Everybody",
           "address": ""
         },
-        "instantiate_default_permission": "Everybody",
-        "max_wasm_code_size": "614400"
+        "instantiate_default_permission": "Everybody"
       },
       "codes": [],
       "contracts": [],
