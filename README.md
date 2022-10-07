@@ -5,7 +5,11 @@ validate genesis file by running:
 ```bash
 provenanced  validate-genesis <PATH_TO_GENESIS_FILE>/genesis.json
 ```
+start provenance with 
+```bash
+provenanced -t start --custom-denom=vspn --minimum-gas-prices=0vspn --msgfee-floor-price=0
 
+```
 ## Active Test Networks
 
 | Name           | Genesis Version | Software Version       | wasmd Verison | Genesis Finalized    | Network Start        |
