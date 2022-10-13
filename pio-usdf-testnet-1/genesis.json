@@ -162,19 +162,29 @@
             {
               "address": "tp1kmaut7y3psh46lw53hgm4967zfxpq5ls2m2w7v",
               "permissions": [
-                "ACCESS_WITHDRAW,ACCESS_MINT,ACCESS_BURN,ACCESS_DEPOSIT,ACCESS_DELETE,ACCESS_ADMIN"
+                "ACCESS_ADMIN",
+                "ACCESS_MINT",
+                "ACCESS_BURN",
+                "ACCESS_WITHDRAW",
+                "ACCESS_DELETE",
+                "ACCESS_DEPOSIT"
               ]
             },
             {
               "address": "tp10es47kqypfg3tt4l02enx7y80dr4e4zndylnze",
               "permissions": [
-                "ACCESS_WITHDRAW,ACCESS_MINT,ACCESS_BURN,ACCESS_DEPOSIT,ACCESS_DELETE,ACCESS_ADMIN"
+                "ACCESS_ADMIN",
+                "ACCESS_MINT",
+                "ACCESS_BURN",
+                "ACCESS_WITHDRAW",
+                "ACCESS_DELETE",
+                "ACCESS_DEPOSIT"
               ]
             }
           ],
           "status": "MARKER_STATUS_ACTIVE",
           "denom": "vspn",
-          "supply": "100",
+          "supply": "10000",
           "marker_type": "MARKER_TYPE_COIN",
           "supply_fixed": false,
           "allow_governance_control": true
@@ -195,7 +205,16 @@
           "coins": [
             {
               "denom": "vspn",
-              "amount": "100"
+              "amount": "1000"
+            }
+          ]
+        },
+        {
+          "address": "tp10es47kqypfg3tt4l02enx7y80dr4e4zndylnze",
+          "coins": [
+            {
+              "denom": "vspn",
+              "amount": "9000"
             }
           ]
         }
