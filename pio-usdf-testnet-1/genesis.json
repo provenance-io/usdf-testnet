@@ -214,7 +214,7 @@
           "coins": [
             {
               "denom": "vspn",
-              "amount": "2000000000000"
+              "amount": "2000"
             }
           ]
         }
