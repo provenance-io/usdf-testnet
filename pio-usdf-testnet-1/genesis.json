@@ -184,7 +184,7 @@
           ],
           "status": "MARKER_STATUS_ACTIVE",
           "denom": "vspn",
-          "supply": "4000000000000",
+          "supply": "2000000002000",
           "marker_type": "MARKER_TYPE_COIN",
           "supply_fixed": false,
           "allow_governance_control": true
